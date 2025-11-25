@@ -1,0 +1,8 @@
+beautifulsoup4
+requests
+schedule
+flask
+line-bot-sdk
+gunicorn
+
+
