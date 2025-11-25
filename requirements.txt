@@ -3,6 +3,3 @@ requests
 schedule
 flask
 line-bot-sdk
-gunicorn
-
-
