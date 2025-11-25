@@ -97,7 +97,7 @@ def schedule_thread():
     #每個星期日的13:30分執行任務(線上編譯器為GMT時間，台灣為GMT+8，故設定上要-8)
     #schedule.every(1).minute.do(push_gas_info)  # 每分鐘執行一次
     #schedule.every().sunday.at("05:30").do(push_gas_info)
-    schedule.every().tuesday.at("09:18").do(push_gas_info)
+    schedule.every().tuesday.at("09:35").do(push_gas_info)
 
     # 讓排程持續運作
     while True:
@@ -149,3 +149,4 @@ def handle_message(event):
 if __name__ == '__main__':
 
     app.run()
+
